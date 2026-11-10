@@ -2,7 +2,7 @@
 
 > 适用包名：`dsh-cloud-memory`  
 > 适用宿主：DeepSeek Harness（DSH）  
-> 本文面向使用者；架构与代码走读见 [`DEFENSE.md`](DEFENSE.md)，发布流程见 [`../PUBLISHING.md`](../PUBLISHING.md)。
+> 本文面向使用者；架构与代码走读见 [`DEFENSE.md`](DEFENSE.md)，发布流程见仓库根目录的 `PUBLISHING.md`。
 
 ---
 

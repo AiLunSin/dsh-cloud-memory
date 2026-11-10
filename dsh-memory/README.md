@@ -12,7 +12,7 @@
 
 > 面向使用者的操作手册：[docs/USAGE.md](docs/USAGE.md)。  
 > 答辩/面试用代码走读与 Q&A：[docs/DEFENSE.md](docs/DEFENSE.md)。  
-> 发布到 GitHub/npm 的步骤：[PUBLISHING.md](../PUBLISHING.md)。
+> 发布到 GitHub/npm 的步骤：仓库根目录的 `PUBLISHING.md`。
 
 ## 技术方案映射
 
@@ -89,7 +89,7 @@ plugin_manager install_bundle
 - `tei`：TEI `/embed`。
 - `openai`：OpenAI-compatible `/v1/embeddings`。
 
-bundle 默认不配置远端端点，使用本地词法哈希兜底。要接真实 BGE-M3，可启动仓库中的 [`embedding-service`](../embedding-service/README.md)，并按 [`examples/bge-m3.profile-patch.yml`](examples/bge-m3.profile-patch.yml) 在 profile 中配置 `baseUrl`。真实模型下建议 `fallbackToLocal: false`：端点不可用时写入保持 `pending`、语义通道降级为关键字，而不会把词法哈希向量混入 BGE-M3 向量空间。若要使用纯离线词法模式，设置 `provider: local`。
+bundle 默认不配置远端端点，使用本地词法哈希兜底。要接真实 BGE-M3，可启动仓库中的 `embedding-service/`（不随 npm 包发布），并按 [`examples/bge-m3.profile-patch.yml`](examples/bge-m3.profile-patch.yml) 在 profile 中配置 `baseUrl`。真实模型下建议 `fallbackToLocal: false`：端点不可用时写入保持 `pending`、语义通道降级为关键字，而不会把词法哈希向量混入 BGE-M3 向量空间。若要使用纯离线词法模式，设置 `provider: local`。
 
 远端失败且 `fallbackToLocal: true` 时，写入仍成功但响应标记 `degraded`；检索结果的 `embed_status` / `degraded_reason` 会体现降级原因。切换 embedding 模型后必须执行一次全量重算：
 
@@ -200,7 +200,7 @@ npm test
 | `test/redis.mjs` | L3 Redis RESP（内置 mock server） |
 | `test/chunk.mjs` | 70 条文本按 32 条分片调用 embedding 端点 |
 
-真实 BGE-M3 端点的语义质量测试单独运行（需要先启动 [`embedding-service`](../embedding-service/README.md)）：
+真实 BGE-M3 端点的语义质量测试单独运行（需要先启动仓库中的 `embedding-service/`）：
 
 ```powershell
 npm run test:semantic

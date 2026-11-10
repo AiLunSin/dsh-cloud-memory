@@ -1,7 +1,7 @@
 # dsh-cloud-memory 技术说明与答辩手册
 
 > 面向课程答辩、项目汇报、面试和代码评审。  
-> 配套：[`../README.md`](../README.md)（架构）、[`USAGE.md`](USAGE.md)（操作）、[`../PUBLISHING.md`](../PUBLISHING.md)（发布）。
+> 配套：[`../README.md`](../README.md)（架构）、[`USAGE.md`](USAGE.md)（操作）；发布流程见仓库根目录的 `PUBLISHING.md`。
 
 ---
 
