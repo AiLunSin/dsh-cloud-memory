@@ -42,7 +42,7 @@ On a reproducible small benchmark using a real BGE-M3 (1024-d quantized ONNX) en
 | 检索未命中 | 约 46ms |
 | L1 缓存命中 | <1ms |
 | 离线测试 | 7 组，`npm test` exit 0 |
-| npm 包 | `dsh-cloud-memory@1.0.0`，约 64.5KB |
+| npm 包 | `dsh-cloud-memory@1.0.0`，约 67.7KB |
 
 评测限制：16 条记忆、8 条查询、8 个关键词干扰项，属于可复现的小规模基准，不代表生产全量效果。
 
