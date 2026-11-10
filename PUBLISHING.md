@@ -18,12 +18,24 @@ three URLs before publishing.
 
 ## 2. Create the GitHub repository
 
+Create an **empty** GitHub repository named `dsh-cloud-memory` under
+`AiLunSin` (no README, no license, no .gitignore). The prepared local repo
+already has branch `main`, commits, tag `v1.0.0`, and the `origin` remote
+configured. Push it:
+
+```bash
+git remote set-url origin https://github.com/AiLunSin/dsh-cloud-memory.git
+git push -u origin main --tags
+```
+
+If you start from a fresh copy instead, initialize normally:
+
 ```bash
 git init
 git add .
 git commit -m "feat: initial dsh-cloud-memory plugin"
 git branch -M main
-git remote add origin git@github.com:AiLunSin/dsh-cloud-memory.git
+git remote add origin https://github.com/AiLunSin/dsh-cloud-memory.git
 git push -u origin main
 git tag v1.0.0
 git push origin v1.0.0
