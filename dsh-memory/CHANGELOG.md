@@ -17,4 +17,4 @@
 - TEI and OpenAI-compatible embedding providers, embedding cache, local hashing fallback.
 - Embedding source isolation; `reembed force=true` after switching models.
 - Real BGE-M3 benchmark (`npm run test:semantic`) and seven offline test suites.
-- Usage guide, architecture notes, and interview/defense Q&A.
+- Usage guide and architecture notes.

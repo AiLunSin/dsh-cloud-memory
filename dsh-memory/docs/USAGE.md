@@ -2,7 +2,7 @@
 
 > 适用包名：`dsh-cloud-memory`  
 > 适用宿主：DeepSeek Harness（DSH）  
-> 本文面向使用者；架构与代码走读见 [`DEFENSE.md`](DEFENSE.md)，发布流程见仓库根目录的 `PUBLISHING.md`。
+> 本文面向使用者；架构与接口细节见 [`../README.md`](../README.md)，发布流程见仓库根目录的 `PUBLISHING.md`。
 
 ---
 
@@ -290,7 +290,7 @@ cd dsh-memory
 npm run test:semantic
 ```
 
-需要先启动 `embedding-service`。基准结果见 [`DEFENSE.md`](DEFENSE.md) 和 `README.md`。
+需要先启动 `embedding-service`。基准结果见 [`../README.md`](../README.md)。
 
 ---
 

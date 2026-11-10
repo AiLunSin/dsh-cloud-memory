@@ -11,7 +11,6 @@
 - Web 管理页面：搜索、列表、手动保存、编辑、删除、缓存与健康指标
 
 > 面向使用者的操作手册：[docs/USAGE.md](docs/USAGE.md)。  
-> 答辩/面试用代码走读与 Q&A：[docs/DEFENSE.md](docs/DEFENSE.md)。  
 > 发布到 GitHub/npm 的步骤：仓库根目录的 `PUBLISHING.md`。
 
 ## 技术方案映射
