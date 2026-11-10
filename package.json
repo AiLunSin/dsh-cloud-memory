@@ -1,0 +1,10 @@
+{
+  "name": "dsh-cloud-memory-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Workspace for the dsh-cloud-memory plugin, its tests, and the local BGE-M3 validation endpoint.",
+  "scripts": {
+    "test": "npm --prefix dsh-memory test",
+    "test:semantic": "npm --prefix dsh-memory run test:semantic"
+  }
+}

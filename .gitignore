@@ -1,0 +1,18 @@
+# Dependency and runtime artifacts
+node_modules/
+.pnpm-store/
+.cache/
+.tmp/
+.embedding-venv/
+.screenshots/
+
+# Local logs and test artifacts
+*.log
+dsh-memory/test/*-l2.json
+embedding-service/test/*-l2.json
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+dsh-memory/.obsidian/
+dsh-memory/未命名*

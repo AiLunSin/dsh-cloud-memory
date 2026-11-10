@@ -1,0 +1,18 @@
+# Example profile patch for a local BGE-M3 endpoint.
+#
+# Copy the `config` below into your profile's cordis.patch.yml under the
+# `dsh-memory` row. Start embedding-service first, or point baseUrl at your
+# own TEI / vLLM / OpenAI-compatible embedding service.
+- id: dsh-memory
+  config:
+    userId: local
+    embedding:
+      provider: tei
+      api: tei
+      baseUrl: http://127.0.0.1:8090
+      model: BAAI/bge-m3
+      dim: 1024
+      timeoutMs: 120000
+      fallbackToLocal: false
+    retrieval:
+      channelTimeoutMs: 120000
