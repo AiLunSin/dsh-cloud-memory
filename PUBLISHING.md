@@ -5,16 +5,16 @@ This repository is prepared for a GitHub-first release. The package name is
 
 ## 1. Replace placeholders
 
-`dsh-memory/package.json` currently points at `your-account`:
+`dsh-memory/package.json` points at the `AiLunSin` GitHub account:
 
 ```json
-"repository": { "url": "git+https://github.com/your-account/dsh-cloud-memory.git" },
-"homepage": "https://github.com/your-account/dsh-cloud-memory#readme",
-"bugs": { "url": "https://github.com/your-account/dsh-cloud-memory/issues" }
+"repository": { "url": "git+https://github.com/AiLunSin/dsh-cloud-memory.git" },
+"homepage": "https://github.com/AiLunSin/dsh-cloud-memory#readme",
+"bugs": { "url": "https://github.com/AiLunSin/dsh-cloud-memory/issues" }
 ```
 
-Replace `your-account` with the real GitHub account or organization before
-publishing. If the repository name changes, update all three URLs.
+If the repository is created under a different account or name, update all
+three URLs before publishing.
 
 ## 2. Create the GitHub repository
 
@@ -23,7 +23,7 @@ git init
 git add .
 git commit -m "feat: initial dsh-cloud-memory plugin"
 git branch -M main
-git remote add origin git@github.com:<your-account>/dsh-cloud-memory.git
+git remote add origin git@github.com:AiLunSin/dsh-cloud-memory.git
 git push -u origin main
 git tag v1.0.0
 git push origin v1.0.0

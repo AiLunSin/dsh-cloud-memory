@@ -18,11 +18,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-account/dsh-cloud-memory.git"
+    "url": "git+https://github.com/AiLunSin/dsh-cloud-memory.git"
   },
-  "homepage": "https://github.com/your-account/dsh-cloud-memory#readme",
+  "homepage": "https://github.com/AiLunSin/dsh-cloud-memory#readme",
   "bugs": {
-    "url": "https://github.com/your-account/dsh-cloud-memory/issues"
+    "url": "https://github.com/AiLunSin/dsh-cloud-memory/issues"
   },
   "engines": {
     "node": ">=22",
