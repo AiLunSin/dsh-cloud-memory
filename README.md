@@ -13,6 +13,14 @@ DSH（DeepSeek Harness）的跨会话记忆插件：语义 + 关键字混合检�
 - 3 个 Agent 工具：`memory_search` / `memory_write` / `memory_manage`
 - Web 管理页：搜索、保存、编辑、删除、缓存与健康指标
 
+## 截图
+
+| 记忆面板 | 混合检索 |
+| --- | --- |
+| ![记忆面板](dsh-memory/docs/screenshots/01-memory-panel.jpg) | ![混合检索](dsh-memory/docs/screenshots/02-search-results.jpg) |
+
+![缓存与状态](dsh-memory/docs/screenshots/03-cache-status.jpg)
+
 ## 仓库结构
 
 ```text
@@ -43,8 +51,8 @@ npm run test:semantic
 
 ## 状态
 
-- 插件包：`dsh-cloud-memory@1.0.0`
+- 插件包：`dsh-cloud-memory@1.0.1`
 - 离线测试：7 组通过
 - 真实 BGE-M3 基准：语义 top1 100%，混合 top3 100%
-- npm：尚未发布；目前从 GitHub/本地安装
+- npm：已发布（`npm i dsh-cloud-memory`）
 - License：MIT
