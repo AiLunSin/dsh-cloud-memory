@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.1 — 2026-11-11
+
+### Documentation
+
+- Add screenshots of the memory panel, hybrid search results, and the cache status page.
+- Ship `docs/screenshots/` in the npm tarball.
+
 ## 1.0.0 — 2026-11-10
 
 ### Added

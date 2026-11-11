@@ -13,6 +13,14 @@
 > 面向使用者的操作手册：[docs/USAGE.md](docs/USAGE.md)。  
 > 发布到 GitHub/npm 的步骤：仓库根目录的 `PUBLISHING.md`。
 
+## 截图
+
+| 记忆面板 | 混合检索 |
+| --- | --- |
+| ![记忆面板](https://raw.githubusercontent.com/AiLunSin/dsh-cloud-memory/main/dsh-memory/docs/screenshots/01-memory-panel.jpg) | ![混合检索](https://raw.githubusercontent.com/AiLunSin/dsh-cloud-memory/main/dsh-memory/docs/screenshots/02-search-results.jpg) |
+
+![缓存与状态](https://raw.githubusercontent.com/AiLunSin/dsh-cloud-memory/main/dsh-memory/docs/screenshots/03-cache-status.jpg)
+
 ## 技术方案映射
 
 | 技术方案 | 本插件实现 | 说明 |

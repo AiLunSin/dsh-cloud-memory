@@ -1,6 +1,6 @@
 {
   "name": "dsh-cloud-memory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "type": "module",
   "description": "Persistent cross-session memory for DeepSeek Harness: hybrid semantic + keyword recall, RRF fusion, three-tier cache, and a Web management page.",
@@ -47,6 +47,7 @@
     "README.md",
     "CHANGELOG.md",
     "docs/*.md",
+    "docs/screenshots/*",
     "examples/*.yml"
   ],
   "scripts": {
