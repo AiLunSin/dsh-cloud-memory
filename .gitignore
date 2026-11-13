@@ -6,6 +6,9 @@ node_modules/
 .embedding-venv/
 .screenshots/
 
+# Local-only appendix (not for GitHub or npm)
+/appendix/
+
 # Local logs and test artifacts
 *.log
 dsh-memory/test/*-l2.json
